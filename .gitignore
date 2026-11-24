@@ -33,3 +33,10 @@ ENV/
 # OS specific files
 .DS_Store
 Thumbs.db
+# Browser cookies and other secrets: never commit (this repo is public)
+*cookies*.txt
+.env
+.env.*
+
+# Claude app scratch output
+Claude outputs/
